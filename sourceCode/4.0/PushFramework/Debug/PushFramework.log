@@ -1,0 +1,69 @@
+﻿  MeasureArgs.cpp
+  Measure.cpp
+  KeyedAveragedMeasure.cpp
+  KeyedAveragedDistributionMeasure.cpp
+  DurationMeasure.cpp
+  DistributionMeasure.cpp
+  CumulativeMeasure.cpp
+  XMLProtocol.cpp
+  XMLPacket.cpp
+  Utilities_Win.cpp
+  SystemServiceImpl_Win.cpp
+  SystemService.cpp
+  StopWatchImpl_Win.cpp
+  StopWatch.cpp
+  Service.cpp
+  ServerStats.cpp
+  ServerOptions.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\serveroptions.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  ServerImpl.cpp
+  Server.cpp
+  Routines_Win.cpp
+  QueueOptions.cpp
+  PhysicalConnection_Win.cpp
+  PhysicalConnection.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\physicalconnection.cpp(67): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+  PacketInfo.cpp
+  MonitorsMsgFactory.cpp
+  LogicalConnection.cpp
+  ListenerOptions.cpp
+  ListenerImpl_Win.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\listenerimpl_win.cpp(57): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+  Listener.cpp
+  IOQueue_Win.cpp
+  IOBuffer.cpp
+  GarbageCollector.cpp
+  Dispatcher.cpp
+  DemuxImpl_Win.cpp
+  ConnectionContext.cpp
+  ClientFactory.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\clientfactory.cpp(163): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\clientfactory.cpp(164): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+  ClientFactory_Win.cpp
+  BroadcastStreamer.cpp
+  BroadcastQueue.cpp
+  BroadcastManager.cpp
+  stdafx.cpp
+  ReadWriteLock_Win.cpp
+  ReadWriteLock.cpp
+  PhysicalConnectionPool.cpp
+  MonitorServer.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\pushframework\private\monitorserver.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  MonitorClient.cpp
+  LogicalConnectionPool.cpp
+  Common.cpp
+  LogicalConnectionImpl.cpp
+  dllmain.cpp
+  ConnectionContextPool.cpp
+  BroadcastQueueContext.cpp
+  BroadcastQueueGroupContext.cpp
+  xmlParser.cpp
+BroadcastQueueGroupContext.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ..\output\Debug\PushFramework.lib 和对象 ..\output\Debug\PushFramework.exp
+  PushFramework.vcxproj -> D:\2018\c++0x\exp2\pushframework\sourceCode\PushFramework\sourceCode\4.0\PushFramework\..\output\Debug\PushFramework.dll

@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  SimpleProtocol.cpp
+  正在生成代码...
+    正在创建库 ..\..\output\Debug\SimpleProtocol.lib 和对象 ..\..\output\Debug\SimpleProtocol.exp
+  SimpleProtocol.vcxproj -> D:\2018\c++0x\exp2\pushframework\sourceCode\PushFramework\sourceCode\4.0\Demo\SimpleProtocol\..\..\output\Debug\SimpleProtocol.dll

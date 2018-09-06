@@ -1,0 +1,24 @@
+﻿  stdafx.cpp
+  base64.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\base64\base64.cpp(96): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\base64\base64.cpp(113): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  sha1.cpp
+  正在生成代码...
+  dllmain.cpp
+  WebsocketContext.cpp
+  WebsocketControlMessage.cpp
+  WebsocketHandshakeMessage.cpp
+  WebsocketProtocol.cpp
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(196): warning C4244: “+=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(222): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(253): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(356): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(385): warning C4244: “初始化”: 从“unsigned __int64”转换到“char”，可能丢失数据
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(427): warning C4309: “=”: 截断常量值
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(428): warning C4309: “=”: 截断常量值
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(429): warning C4309: “=”: 截断常量值
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(430): warning C4309: “=”: 截断常量值
+d:\2018\c++0x\exp2\pushframework\sourcecode\pushframework\sourcecode\4.0\demo\websocketprotocol\websocketprotocol.cpp(455): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+    正在创建库 ..\..\output\Debug\WebsocketProtocol.lib 和对象 ..\..\output\Debug\WebsocketProtocol.exp
+  WebsocketProtocol.vcxproj -> D:\2018\c++0x\exp2\pushframework\sourceCode\PushFramework\sourceCode\4.0\Demo\WebsocketProtocol\..\..\output\Debug\WebsocketProtocol.dll

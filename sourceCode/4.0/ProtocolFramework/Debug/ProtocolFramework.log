@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  SerializeData.cpp
+  ProtocolManager.cpp
+  ProtocolFramework.cpp
+  ProtocolContext.cpp
+  Protocol.cpp
+  OutgoingPacket.cpp
+  MessageFactory.cpp
+  MemorySegment.cpp
+  MemoryAllocator.cpp
+  IncomingPacket.cpp
+  Connection.cpp
+  ErrorCodes.cpp
+  dllmain.cpp
+  DeserializeData.cpp
+  BufferList.cpp
+  Buffer.cpp
+  AbstractPool.cpp
+  正在生成代码...
+AbstractPool.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 ..\output\Debug\ProtocolFramework.lib 和对象 ..\output\Debug\ProtocolFramework.exp
+  ProtocolFramework.vcxproj -> D:\2018\c++0x\exp2\pushframework\sourceCode\PushFramework\sourceCode\4.0\ProtocolFramework\..\output\Debug\ProtocolFramework.dll
