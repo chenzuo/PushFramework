@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/ChatClientProtocol.h</itemPath>
+      <itemPath>src/ChatProtocolInc.h</itemPath>
+      <itemPath>src/ChatServerProtocol.h</itemPath>
+      <itemPath>src/DirectChatRequest.h</itemPath>
+      <itemPath>src/DirectChatResponse.h</itemPath>
+      <itemPath>src/JoinRoomRequest.h</itemPath>
+      <itemPath>src/JoinRoomResponse.h</itemPath>
+      <itemPath>src/LeaveRoomRequest.h</itemPath>
+      <itemPath>src/LoginPuzzleResponse.h</itemPath>
+      <itemPath>src/LoginRequest.h</itemPath>
+      <itemPath>src/LoginResponse.h</itemPath>
+      <itemPath>src/LogoutRequest.h</itemPath>
+      <itemPath>src/ParticipantInResponse.h</itemPath>
+      <itemPath>src/ParticipantOutResponse.h</itemPath>
+      <itemPath>src/Plateform.h</itemPath>
+      <itemPath>src/ProtocolIDs.h</itemPath>
+      <itemPath>src/RoomChatRequest.h</itemPath>
+      <itemPath>src/RoomChatResponse.h</itemPath>
+      <itemPath>src/RoomsResponse.h</itemPath>
+      <itemPath>src/StdAfx.h</itemPath>
+      <itemPath>src/Symbols.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/ChatClientProtocol.cpp</itemPath>
+      <itemPath>src/ChatServerProtocol.cpp</itemPath>
+      <itemPath>src/DirectChatRequest.cpp</itemPath>
+      <itemPath>src/DirectChatResponse.cpp</itemPath>
+      <itemPath>src/JoinRoomRequest.cpp</itemPath>
+      <itemPath>src/JoinRoomResponse.cpp</itemPath>
+      <itemPath>src/LeaveRoomRequest.cpp</itemPath>
+      <itemPath>src/LoginPuzzleResponse.cpp</itemPath>
+      <itemPath>src/LoginRequest.cpp</itemPath>
+      <itemPath>src/LoginResponse.cpp</itemPath>
+      <itemPath>src/LogoutRequest.cpp</itemPath>
+      <itemPath>src/ParticipantInResponse.cpp</itemPath>
+      <itemPath>src/ParticipantOutResponse.cpp</itemPath>
+      <itemPath>src/RoomChatRequest.cpp</itemPath>
+      <itemPath>src/RoomChatResponse.cpp</itemPath>
+      <itemPath>src/RoomsResponse.cpp</itemPath>
+      <itemPath>src/stdafx.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../pushframework/include</pElem>
+            <pElem>../xmlprotocol/src</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>../output/libchatprotocol.so</output>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../pushframework"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../pushframework"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../output/libpushframework.so">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../xmlprotocol"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../xmlprotocol"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../output/libxmlprotocol.so">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

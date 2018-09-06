@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/ChatParticipant.h</itemPath>
+      <itemPath>src/ChatParticipantFactory.h</itemPath>
+      <itemPath>src/DirectChatRequestService.h</itemPath>
+      <itemPath>src/INIReader.h</itemPath>
+      <itemPath>src/JoinRoomRequestService.h</itemPath>
+      <itemPath>src/LeaveRoomRequestService.h</itemPath>
+      <itemPath>src/LogoutRequestService.h</itemPath>
+      <itemPath>src/Plateform.h</itemPath>
+      <itemPath>src/RoomChatRequestService.h</itemPath>
+      <itemPath>src/StdAfx.h</itemPath>
+      <itemPath>src/ini.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/ChatParticipant.cpp</itemPath>
+      <itemPath>src/ChatParticipantFactory.cpp</itemPath>
+      <itemPath>src/ChatServer.cpp</itemPath>
+      <itemPath>src/DirectChatRequestService.cpp</itemPath>
+      <itemPath>src/INIReader.cpp</itemPath>
+      <itemPath>src/JoinRoomRequestService.cpp</itemPath>
+      <itemPath>src/LeaveRoomRequestService.cpp</itemPath>
+      <itemPath>src/LogoutRequestService.cpp</itemPath>
+      <itemPath>src/RoomChatRequestService.cpp</itemPath>
+      <itemPath>src/ini.cpp</itemPath>
+      <itemPath>src/stdafx.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>ChatServer.ini</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../pushframework/include</pElem>
+            <pElem>../chatprotocol/src</pElem>
+            <pElem>../xmlprotocol/src</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>../output/chatserver</output>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../pushframework"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../pushframework"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../output/libpushframework.so">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../xmlprotocol"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../xmlprotocol"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../output/libxmlprotocol.so">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../chatprotocol"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../chatprotocol"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../output/libchatprotocol.so">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+        <requiredProjects>
+          <makeArtifact PL="../chatprotocol"
+                        CT="2"
+                        CN="Debug"
+                        AC="true"
+                        BL="false"
+                        WD="../chatprotocol"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="../output/libchatprotocol.so">
+          </makeArtifact>
+          <makeArtifact PL="../xmlprotocol"
+                        CT="2"
+                        CN="Debug"
+                        AC="true"
+                        BL="false"
+                        WD="../xmlprotocol"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="../output/libxmlprotocol.so">
+          </makeArtifact>
+          <makeArtifact PL="../pushframework"
+                        CT="2"
+                        CN="Debug"
+                        AC="true"
+                        BL="false"
+                        WD="../pushframework"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="../output/libpushframework.so">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

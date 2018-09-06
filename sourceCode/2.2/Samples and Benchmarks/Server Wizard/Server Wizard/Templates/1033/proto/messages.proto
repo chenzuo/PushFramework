@@ -1,0 +1,46 @@
+package messages;
+
+
+//Login Stage
+
+message LoginChallengeResponse {
+    required uint32 challenge = 1;
+}
+
+message LoginRequest {
+    optional string pseudo = 1;
+    optional uint32 challengeResponse = 2;
+}
+
+//Echo :
+
+message EchoRequest {
+    required string msg = 1;
+}
+
+message EchoResponse {
+    required string msg = 1;
+}
+
+//Routed Msg
+
+message RoutedMessageRequest {
+    required string recipient = 1;
+    required string msg = 2;
+}
+
+message RoutedMessageResponse {
+    required string sender = 1;
+    required string msg = 2;
+}
+
+//Group/Broadcast Msg
+
+message GroupMessageRequest {
+    required string msg = 1;
+}
+
+message GroupMessageResponse {
+    required string sender = 1;
+    required string msg = 2;
+}

@@ -1,0 +1,5 @@
+#include "Symbols.h"
+#include "xmlParser.h"
+#include "XMLRequest.h"
+#include "XMLResponse.h"
+#include "XMLProtocol.h"

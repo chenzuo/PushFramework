@@ -1,0 +1,1 @@
+FOR /r %%F in (proto\*) DO protoc.exe -I=proto\ --cpp_out=generated\ proto\\"%%~nxF"

@@ -1,0 +1,5 @@
+To build on Windows, a Visual Studio solution is provided.
+For Linux, you can and open the projects makefiles using Netbeans C++
+
+
+For any issue, do not hesitate to send questions.

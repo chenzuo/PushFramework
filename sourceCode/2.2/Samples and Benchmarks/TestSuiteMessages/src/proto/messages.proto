@@ -1,0 +1,83 @@
+// See README.txt for information and build instructions.
+
+package testsuitemessages;
+
+
+//Login Stage
+
+message LoginRequest {
+    optional string pseudo = 1;
+    optional bool claimPseudo = 2;
+    required string accessKey = 3;
+}
+
+message LoginResultResponse {
+    required bool is_accepted = 1;
+    required string pseudo = 2;
+}
+
+//Echo :
+
+message EchoRequest {
+    required string msg = 1;
+}
+
+message EchoResponse {
+    required string msg = 1;
+}
+
+
+//Routed Msg
+
+message RoutedMessageRequest {
+    required string recipient = 1;
+    required string msg = 2;
+}
+
+message RoutedMessageResponse {
+    required string sender = 1;
+    required string msg = 2;
+}
+
+//Group/Broadcast Msg
+
+message GroupMessageRequest {
+    required string msg = 1;
+}
+
+message GroupMessageResponse {
+    required string sender = 1;
+    required string msg = 2;
+}
+
+//Broadcast Msg
+
+message SubscribeToBroadcastQueueRequest {
+    repeated string queueName = 1;
+}
+
+message BroadcastMessageRequest {
+    required uint32 messageId = 1;
+    repeated string queueName = 2;
+    required string payload = 3;
+    required string timestamp = 4;
+}
+
+message BroadcastMessageResponse {
+    required string sender = 1;
+    required uint32 messageId = 2;
+    required string queueName = 3;
+    required string payload = 4;
+    required string timestamp = 5;
+}
+
+//Memory Testing : 
+
+message MemTestRequest {
+    required string msg = 1;
+    required uint32 target = 2;
+}
+message MemTestResponse {
+    required string msg = 1;
+}
+

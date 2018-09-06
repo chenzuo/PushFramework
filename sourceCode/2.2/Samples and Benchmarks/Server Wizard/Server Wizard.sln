@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server Wizard", "Server Wizard\Server Wizard.vcproj", "{39CCAA00-362B-4941-A410-E412B954DAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39CCAA00-362B-4941-A410-E412B954DAEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39CCAA00-362B-4941-A410-E412B954DAEA}.Debug|Win32.Build.0 = Debug|Win32
+		{39CCAA00-362B-4941-A410-E412B954DAEA}.Release|Win32.ActiveCfg = Release|Win32
+		{39CCAA00-362B-4941-A410-E412B954DAEA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
